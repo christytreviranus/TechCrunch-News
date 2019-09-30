@@ -4,6 +4,7 @@ html, body {
 
 body {
     padding: 70px;
+    background-color: lightgray;
 }
 
 #wrapper {
@@ -21,6 +22,7 @@ body {
     margin: 10px;
 }
 
-.well {
-    margin: 15px;
+.jumbotron {
+    margin-top: 25px;
+    margin-bottom: 0;
 }
