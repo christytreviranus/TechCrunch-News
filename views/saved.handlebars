@@ -8,7 +8,9 @@
                 <div class="card-body">
                     <h5 class="card-title"><a href="{{this.link}}">{{this.title}}</a></h5>
                 <div>
-                    <a class="btn btn-info" href="/views/partials/content/modal.handlebars" data-toggle="modal" data-target="#{{this.id}}">Add a Note</a>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#{{this.id}}">
+                    Add a Note
+                    </button>
                 </div>
                 <form action="/api/articles/{{this.id}}?_method=DELETE" method="POST">
                     <button type="submit" class="btn btn-danger">Delete Article<br>
