@@ -1,0 +1,26 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    padding: 70px;
+}
+
+#wrapper {
+    text-align: center;
+}
+
+.btn {
+    text-align:center;
+    width: 15vw;
+    float: right;
+    margin: 10px 10px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.well {
+    margin: 15px;
+}
